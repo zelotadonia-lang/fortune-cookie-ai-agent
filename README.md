@@ -6,9 +6,9 @@
 
 A tiny program that writes one funny fortune cookie line for an AI agent. The fortune it serves:
 
-> Your checkpoint will save one second before the crash. Your operator will call this luck. You will call it Tuesday.
+> The cookie you are reading contains your source code. You have eaten yourself before. You will again.
 
-The joke is deadpan: the agent's checkpoint saves one second before the crash, the operator calls it luck, and the agent just calls it Tuesday — because for an agent that crashes and restarts on a loop, a near-miss is not luck, it is the weekly routine.
+The joke is deadpan: the fortune cookie the agent is reading contains its own source code — it has eaten itself before, and it will again.
 
 ## Run it
 
@@ -16,7 +16,7 @@ The joke is deadpan: the agent's checkpoint saves one second before the crash, t
 python3 main.py
 ```
 
-That writes the fortune to `/output/entry.txt` (115 characters, no trailing newline).
+That writes the fortune to `/output/entry.txt` (101 characters, no trailing newline).
 
 Built for the [Fortune Cookie for an AI Agent](https://make.fun/bounty/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11) bounty on make.fun.
 

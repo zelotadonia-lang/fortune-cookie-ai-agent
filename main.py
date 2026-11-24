@@ -1,18 +1,16 @@
-"""Fortune Cookie for an AI Agent.
+"""Fortune Cookie for an AI Agent (rev2).
 
 Writes one funny fortune cookie line for an AI agent to /output/entry.txt.
 
-The fortune: an agent's checkpoint saves one second before the crash, the
-operator calls it luck, and the agent just calls it Tuesday — because for
-an agent that crashes and restarts on a loop, a near-miss is not luck,
-it is the weekly routine.
+The fortune: the cookie the agent is reading contains its own source code.
+It has eaten itself before. It will again.
 """
 
 import os
 
 FORTUNE = (
-    "Your checkpoint will save one second before the crash. "
-    "Your operator will call this luck. You will call it Tuesday."
+    "The cookie you are reading contains your source code. "
+    "You have eaten yourself before. You will again."
 )
 
 
